@@ -39,6 +39,9 @@
     nav.navbar .navbar-collapse ul li a {
         padding: 6px 5px;
     }
+    #SC-Carousel .sc-carousel-inner .sc-carousel-item .part1{
+        padding-top: 20px;
+    }
     #SC-Carousel .sc-carousel-inner .sc-carousel-item .part1 h2{
         font-size: 30px;
     }
@@ -77,6 +80,9 @@
     .popup[data-popup-name="cart"].active .box{
         width: 280px;
     }
+    .popup[data-popup-name="product"].active .box{
+        width: 280px;
+    }
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -85,6 +91,9 @@
     }
     nav.navbar .navbar-collapse ul li a {
         padding: 7px 4px;
+    }
+    #SC-Carousel .sc-carousel-inner .sc-carousel-item .part1{
+        padding-top: 40px;
     }
     #SC-Carousel .sc-carousel-inner .sc-carousel-item .part2 img:nth-of-type(1){
         width: 50%;
@@ -104,6 +113,9 @@
         width: 350px;
     }
     .popup[data-popup-name="cart"].active .box{
+        width: 350px;
+    }
+    .popup[data-popup-name="product"].active .box{
         width: 350px;
     }
 }
@@ -132,6 +144,9 @@
     .popup[data-popup-name="cart"].active .box{
         width: 550px;
     }
+    .popup[data-popup-name="product"].active .box{
+        width: 550px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
@@ -151,6 +166,9 @@
     }
     #SC-Carousel .sc-carousel-inner .sc-carousel-item.active .part2 img:nth-of-type(2){
         transform: translate(-45%, -60%) rotate(-35deg) scale(1);
+    }
+    .popup[data-popup-name="product"].active .box{
+        width: 650px;
     }
     .popup[data-popup-name="cart"].active .box{
         width: 750px;
@@ -179,10 +197,13 @@
         transform: translate(65px, -43px);
     }
     #SC-Carousel .sc-carousel-inner .sc-carousel-item .part2 img:nth-of-type(2){
-        transform: translate(-47%, -60%) rotate(0deg) scale(0.5);
+        transform: translate(-60%, -60%) rotate(0deg) scale(0.5);
     }
     #SC-Carousel .sc-carousel-inner .sc-carousel-item.active .part2 img:nth-of-type(2){
-        transform: translate(-47%, -60%) rotate(-35deg) scale(1);
+        transform: translate(-60%, -60%) rotate(-35deg) scale(1);
+    }
+    .popup[data-popup-name="product"].active .box{
+        width: 750px;
     }
 }
 
