@@ -87,18 +87,18 @@ latest.forEach(function(product){
         <div class="product mainBorder p-3 bg-light rounded-3 mb-3" data-selected-size="${isProductInCart?.size ?? product.sizes[0]}" data-selected-color="${isProductInCart?.color ?? product.colors[0]}" data-product-id="${product.id}">
             <div class="row">
                 <div class="col-lg-6 part1">
-                    <div class="item">
-                        <div class="row">
+                    <div class="item h-100">
+                        <div class="row h-100">
                             <div class="col-lg-2 box1">
-                                <div class="item">
-                                    <ul class="list-unstyled d-flex flex-row flex-lg-column row-gap-lg-2 column-gap-3 column-gap-lg-0 mb-0">
+                                <div class="item h-100">
+                                    <ul class="list-unstyled d-flex flex-row flex-lg-column row-gap-lg-2 column-gap-3 column-gap-lg-0 mb-0 h-100">
                                         ${prepareImagesList(product.images)}
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-10 box2">
                                 <div class="item">
-                                    <div class="selectedImg">
+                                    <div class="selectedImg h-100">
                                         <img src="./images/products/${product.images[0]}" alt="" class="img-fluid">
                                     </div>
                                 </div>
