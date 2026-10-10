@@ -134,7 +134,7 @@ function showProduct(productId){
             <div class="col-lg-6">
                 <div class="item">
                     <div class="selectedImg">
-                        <img src="./images/products/${product.images[0]}" alt="" class="img-fluid">
+                        <img src="./images/products/${product.images[0]}" alt="" class="img-fluid w-100">
                     </div>
                     <ul class="list-unstyled d-flex mb-0">
                         ${prepareImagesList(product.images, true)}
