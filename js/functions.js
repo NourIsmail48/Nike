@@ -131,7 +131,7 @@ function showProduct(productId){
         isProductInCart = checkProductIntoCart(product.id);
     popupProduct.innerHTML = `
         <div class="row product" data-selected-size="${isProductInCart?.size ?? product.sizes[0]}" data-selected-color="${isProductInCart?.color ?? product.colors[0]}">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="item">
                     <div class="selectedImg">
                         <img src="./images/products/${product.images[0]}" alt="" class="img-fluid w-100">
@@ -141,7 +141,7 @@ function showProduct(productId){
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="item">
                     <h3>${product.name}</h3>
                     ${preparePrice(product.price, product.discount)}
