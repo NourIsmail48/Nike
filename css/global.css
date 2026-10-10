@@ -146,6 +146,9 @@ section{
     background-color: #198754;
     color: #fff;
 }
+.popup[data-popup-name="product"]{
+    overflow-y: auto;
+}
 .popup[data-popup-name="product"].active .box{
     width: 750px;
 }
